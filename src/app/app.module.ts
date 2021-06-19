@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/header/header.component';
+import { HomePageComponent } from './components/home-page/home-page.component';
 import { LeisPageComponent } from './components/leis-page/leis-page.component';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { LeisExpansionComponent } from './components/leis-expansion/leis-expansion.component';
@@ -25,12 +26,13 @@ import { InstituicaoPageComponent } from './components/instituicao-page/institui
   declarations: [
     AppComponent,
     HeaderComponent,
+    HomePageComponent,
     LeisPageComponent,
     LeisExpansionComponent,
     InstituicoesPageComponent,
     InstituicoesCardComponent,
     MenuNavegacaoComponent,
-    InstituicaoPageComponent
+    InstituicaoPageComponent,
   ],
   imports: [
     BrowserModule,
