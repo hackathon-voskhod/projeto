@@ -1,5 +1,5 @@
 export interface LeisApi {
-  data: string;
+  data: Date;
   descricao: string;
   id: number;
   site: string;
