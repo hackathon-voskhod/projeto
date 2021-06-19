@@ -1,12 +1,14 @@
-<mat-expansion-panel hideToggle='false'>
-  <mat-expansion-panel-header>
+<mat-expansion-panel hideToggle="false">
+  <mat-expansion-panel-header class="expanse-container">
     <mat-panel-title>
-      {{leis?.nome}}
+      {{ leis?.nome }}
     </mat-panel-title>
     <mat-panel-description>
-      {{leis?.data}}
+      {{ leis?.data }}
     </mat-panel-description>
   </mat-expansion-panel-header>
-  <p>{{leis?.descricao}}</p>
-  <p>Site: <a [href]="leis?.site" target="_blank">{{leis?.site}}</a></p>
+  <p>{{ leis?.descricao }}</p>
+  <p>
+    Site: <a [href]="leis?.site" target="_blank">{{ leis?.site }}</a>
+  </p>
 </mat-expansion-panel>
