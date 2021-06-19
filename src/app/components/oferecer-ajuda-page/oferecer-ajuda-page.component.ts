@@ -1,27 +1,34 @@
 import { Component, OnInit } from '@angular/core';
 import * as myGlobals from '../../services/ajuda';
-import { AjudaModel } from "../../services/ajuda-model";
+import { AjudaModel } from '../../services/ajuda-model';
 
 @Component({
   selector: 'app-oferecer-ajuda-page',
   templateUrl: './oferecer-ajuda-page.component.html',
-  styleUrls: ['./oferecer-ajuda-page.component.css']
+  styleUrls: ['./oferecer-ajuda-page.component.css'],
 })
 export class OferecerAjudaPageComponent implements OnInit {
+  public novaAjuda: AjudaModel;
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor() {
+    this.novaAjuda = {
+      nome: '',
+      tipo: '',
+      descricao: '',
+      email: '',
+    };
   }
 
-  addAjuda(): void{
-    const novaAjuda:AjudaModel = {
-      nome: "Nova Ajuda",
-      tipo: "Jurídica",
-      descricao: "Descrição",
-      email: "email@gmail.com"
-    }
+  ngOnInit(): void {}
 
-    myGlobals.ajuda.push(novaAjuda)
+  addAjuda(): void {
+    // const novaAjuda: AjudaModel = {
+    //   nome: 'Nova Ajuda',
+    //   tipo: 'Jurídica',
+    //   descricao: 'Descrição',
+    //   email: 'email@gmail.com',
+    // };
+
+    myGlobals.ajuda.push(this.novaAjuda);
   }
 }

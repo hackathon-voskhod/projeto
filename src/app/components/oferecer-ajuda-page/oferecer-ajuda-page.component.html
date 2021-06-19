@@ -1,1 +1,26 @@
-<button (click)="addAjuda()">Adicionar</button>
+<div class="margin-wrapper">
+  <app-header titulo="Cadastrar nova ajuda"></app-header>
+  <div class="container">
+    <div>
+      <h3>Nome</h3>
+      <input type="text" [(ngModel)]="novaAjuda.nome" />
+    </div>
+
+    <div>
+      <h3>Email</h3>
+      <input type="email" [(ngModel)]="novaAjuda.email" />
+    </div>
+
+    <div>
+      <h3>Tipo de ajuda</h3>
+      <input type="text" [(ngModel)]="novaAjuda.tipo" />
+    </div>
+
+    <div>
+      <h3>Descrição</h3>
+      <input type="text" [(ngModel)]="novaAjuda.descricao" />
+    </div>
+
+    <button (click)="addAjuda()">Adicionar</button>
+  </div>
+</div>
