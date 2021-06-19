@@ -3,4 +3,5 @@ export interface LeisApi {
   descricao: string;
   id: number;
   site: string;
+  nome: string;
 }
