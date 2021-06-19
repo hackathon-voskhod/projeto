@@ -1,0 +1,65 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav
+    #drawer
+    class="sidenav"
+    fixedInViewport
+    [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+    [mode]="(isHandset$ | async) ? 'over' : 'side'"
+    [opened]="(isHandset$ | async) === false"
+  >
+    <mat-toolbar>Menu</mat-toolbar>
+    <mat-nav-list>
+      <mat-divider></mat-divider>
+      <a mat-list-item routerLink="/">
+        <i class="material-icons">home</i>
+        <a>Home</a>
+      </a>
+
+      <mat-divider></mat-divider>
+      <a mat-list-item routerLink="/leis">
+        <i class="material-icons">text_snippet</i>
+        <a>Leis</a>
+      </a>
+
+      <mat-divider></mat-divider>
+      <a mat-list-item routerLink="/instituicoes">
+        <i class="material-icons">maps_home_work</i>
+        <a>Instituições</a>
+      </a>
+
+      <mat-divider></mat-divider>
+      <a mat-list-item routerLink="/busco_ajuda">
+        <i class="material-icons">supervisor_account</i>
+        <a>Busco ajuda</a>
+      </a>
+
+      <mat-divider></mat-divider>
+      <a mat-list-item routerLink="/oferecer_ajuda">
+        <i class="material-icons">group_add</i>
+        <a>Oferecer ajuda</a>
+      </a>
+
+      <mat-divider></mat-divider>
+      <a mat-list-item routerLink="/contatos">
+        <i class="material-icons">supervisor_account</i>
+        <a>Contatos</a>
+      </a>
+      <mat-divider></mat-divider>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        *ngIf="isHandset$ | async"
+      >
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+      <span>Por elas</span>
+    </mat-toolbar>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

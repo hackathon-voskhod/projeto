@@ -6,12 +6,19 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/header/header.component';
 import { LeisPageComponent } from './components/leis-page/leis-page.component';
-import {MatExpansionModule} from '@angular/material/expansion';
+import { MatExpansionModule } from '@angular/material/expansion';
 import { LeisExpansionComponent } from './components/leis-expansion/leis-expansion.component';
 import { InstituicoesPageComponent } from './components/instituicoes-page/instituicoes-page.component';
 import { HttpClientModule } from '@angular/common/http';
 import { InstituicoesCardComponent } from './components/instituicoes-card/instituicoes-card.component';
 import { MatCardModule } from '@angular/material/card';
+import { MenuNavegacaoComponent } from './components/menu-navegacao/menu-navegacao.component';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -20,17 +27,25 @@ import { MatCardModule } from '@angular/material/card';
     LeisPageComponent,
     LeisExpansionComponent,
     InstituicoesPageComponent,
-    InstituicoesCardComponent
+    InstituicoesCardComponent,
+    MenuNavegacaoComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
+    MatCardModule,
+    LayoutModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
     MatExpansionModule,
-    MatCardModule
+    MatCardModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

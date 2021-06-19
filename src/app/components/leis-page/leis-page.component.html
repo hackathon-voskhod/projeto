@@ -1,1 +1,7 @@
-<app-leis-expansion *ngFor="let item of listaLeis" [leis]="item"></app-leis-expansion>
+<app-header titulo="Leis"></app-header>
+<div class="margin-wrapper">
+  <app-leis-expansion
+    *ngFor="let item of listaLeis"
+    [leis]="item"
+  ></app-leis-expansion>
+</div>
