@@ -39,6 +39,8 @@ import { OferecerAjudaPageComponent } from './components/oferecer-ajuda-page/ofe
     ContatosCardComponent,
     ContatosPageComponent,
     OferecerAjudaPageComponent,
+    ContatosCardComponent,
+    ContatosPageComponent,
   ],
   imports: [
     BrowserModule,
