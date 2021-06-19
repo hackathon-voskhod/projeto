@@ -21,12 +21,9 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { InstituicaoPageComponent } from './components/instituicao-page/instituicao-page.component';
-<<<<<<< HEAD
 import { ContatosCardComponent } from './components/contatos-card/contatos-card.component';
 import { ContatosPageComponent } from './components/contatos-page/contatos-page.component';
-=======
 import { OferecerAjudaPageComponent } from './components/oferecer-ajuda-page/oferecer-ajuda-page.component';
->>>>>>> main
 
 @NgModule({
   declarations: [
@@ -39,12 +36,9 @@ import { OferecerAjudaPageComponent } from './components/oferecer-ajuda-page/ofe
     InstituicoesCardComponent,
     MenuNavegacaoComponent,
     InstituicaoPageComponent,
-<<<<<<< HEAD
     ContatosCardComponent,
-    ContatosPageComponent
-=======
+    ContatosPageComponent,
     OferecerAjudaPageComponent,
->>>>>>> main
   ],
   imports: [
     BrowserModule,

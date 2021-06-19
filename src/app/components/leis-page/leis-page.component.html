@@ -1,5 +1,8 @@
 <div class="margin-wrapper">
-  <app-header titulo="Leis" descricao="O que temos que ter sempre em mente é que o comprometimento entre as equipes obstaculiza a apreciação da importância do remanejamento dos quadros funcionais."></app-header>
+  <app-header
+    titulo="Leis"
+    descricao="Você sabia que existem leis criadas especificamente para que seus direitos sejam garantidos? Ao contrário do que muita gente pensa, as leis não são exclusivas para aqueles que estudam a área. Reservamos este espaço para que você também possa aprender."
+  ></app-header>
   <app-leis-expansion
     *ngFor="let item of listaLeis"
     [leis]="item"

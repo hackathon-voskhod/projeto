@@ -31,6 +31,8 @@ const routes: Routes = [
       {
         path: 'contatos',
         component: ContatosPageComponent,
+      },
+      {
         path: 'busco_ajuda',
         component: BuscoAjudaPageComponent,
       },
