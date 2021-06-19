@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { InstituicoesApiModel } from 'src/app/services/instituicoes-api-model';
 
 @Component({
   selector: 'app-instituicoes-card',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./instituicoes-card.component.css']
 })
 export class InstituicoesCardComponent implements OnInit {
+
+  @Input()
+  public instituicao: InstituicoesApiModel | undefined;
 
   constructor() { }
 

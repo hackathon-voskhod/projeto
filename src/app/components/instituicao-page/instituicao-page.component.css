@@ -1,0 +1,21 @@
+.instituicao{
+  position: relative;
+}
+
+.instituicao img{
+  height: 210px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.instituicao div{
+  position: absolute;
+  top: 100px;
+  margin: auto;
+  width: 80%;
+  left: 5%;
+  min-height: 200px;
+  padding: 16px;
+  background-color: #fff;
+}
