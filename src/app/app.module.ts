@@ -9,22 +9,36 @@ import { InstituicoesPageComponent } from './components/instituicoes-page/instit
 import { HttpClientModule } from '@angular/common/http';
 import { InstituicoesCardComponent } from './components/instituicoes-card/instituicoes-card.component';
 import { MatCardModule } from '@angular/material/card';
+import { MenuNavegacaoComponent } from './components/menu-navegacao/menu-navegacao.component';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     InstituicoesPageComponent,
-    InstituicoesCardComponent
+    InstituicoesCardComponent,
+    MenuNavegacaoComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    MatCardModule
+    MatCardModule,
+    LayoutModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
