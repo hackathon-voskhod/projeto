@@ -1,0 +1,9 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>{{contatos?.nome}}</mat-card-title>
+    <mat-card-subtitle>{{contatos?.contato}}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-actions>
+    <button mat-button><a [href]="contatos?.contato">Ligar!</a></button>
+  </mat-card-actions>
+</mat-card>
