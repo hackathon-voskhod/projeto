@@ -14,6 +14,7 @@ export class BuscoAjudaPageComponent implements OnInit {
 
   ngOnInit(): void {
     this.listaDeAjuda = myGlobals.ajuda;
+    console.log(this.listaDeAjuda)
   }
 
 }
