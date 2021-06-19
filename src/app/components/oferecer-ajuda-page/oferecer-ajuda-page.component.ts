@@ -18,7 +18,8 @@ export class OferecerAjudaPageComponent implements OnInit {
     const novaAjuda:AjudaModel = {
       nome: "Nova Ajuda",
       tipo: "Jurídica",
-      descricao: "Descrição"
+      descricao: "Descrição",
+      email: "email@gmail.com"
     }
 
     myGlobals.ajuda.push(novaAjuda)
