@@ -20,6 +20,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { InstituicaoPageComponent } from './components/instituicao-page/instituicao-page.component';
+import { ContatosCardComponent } from './components/contatos-card/contatos-card.component';
+import { ContatosPageComponent } from './components/contatos-page/contatos-page.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { InstituicaoPageComponent } from './components/instituicao-page/institui
     InstituicoesPageComponent,
     InstituicoesCardComponent,
     MenuNavegacaoComponent,
-    InstituicaoPageComponent
+    InstituicaoPageComponent,
+    ContatosCardComponent,
+    ContatosPageComponent
   ],
   imports: [
     BrowserModule,
