@@ -9,12 +9,21 @@
   >
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item href="/">Home</a>
-      <a mat-list-item href="/leis">Leis</a>
-      <a mat-list-item href="/instituicoes">Instituições</a>
-      <a mat-list-item href="/busco_ajuda">Busco ajuda</a>
-      <a mat-list-item href="/oferecer_ajuda">Oferecer ajuda</a>
-      <a mat-list-item href="/contatos">Contatos</a>
+      <mat-divider></mat-divider>
+      <a mat-list-item routerLink="/">
+        <a>Home</a>
+      </a>
+      <mat-divider></mat-divider>
+      <a mat-list-item routerLink="/leis">Leis</a>
+      <mat-divider></mat-divider>
+      <a mat-list-item routerLink="/instituicoes">Instituições</a>
+      <mat-divider></mat-divider>
+      <a mat-list-item routerLink="/busco_ajuda">Busco ajuda</a>
+      <mat-divider></mat-divider>
+      <a mat-list-item routerLink="/oferecer_ajuda">Oferecer ajuda</a>
+      <mat-divider></mat-divider>
+      <a mat-list-item routerLink="/contatos">Contatos</a>
+      <mat-divider></mat-divider>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
