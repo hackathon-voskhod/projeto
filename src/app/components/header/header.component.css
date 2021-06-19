@@ -1,8 +1,12 @@
-header {
-  font-size: 24px;
+header p{
+  text-align: justify;
 }
 
 #wrapper {
   width: 100%;
-  height: 5%;
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: 16px;
 }
+
+
