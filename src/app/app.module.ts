@@ -9,13 +9,15 @@ import { InstituicoesPageComponent } from './components/instituicoes-page/instit
 import { HttpClientModule } from '@angular/common/http';
 import { InstituicoesCardComponent } from './components/instituicoes-card/instituicoes-card.component';
 import { MatCardModule } from '@angular/material/card';
+import { InstituicaoPageComponent } from './components/instituicao-page/instituicao-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     InstituicoesPageComponent,
-    InstituicoesCardComponent
+    InstituicoesCardComponent,
+    InstituicaoPageComponent
   ],
   imports: [
     BrowserModule,
