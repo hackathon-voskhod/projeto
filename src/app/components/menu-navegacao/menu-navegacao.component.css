@@ -15,3 +15,11 @@
   top: 0;
   z-index: 1;
 }
+
+i {
+  margin-right: 10%;
+}
+
+span {
+  margin-left: 5%;
+}

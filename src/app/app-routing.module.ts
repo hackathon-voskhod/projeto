@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
+import { InstituicoesPageComponent } from './components/instituicoes-page/instituicoes-page.component';
 import { MenuNavegacaoComponent } from './components/menu-navegacao/menu-navegacao.component';
 
 const routes: Routes = [
@@ -11,6 +12,10 @@ const routes: Routes = [
       {
         path: '',
         component: HeaderComponent,
+      },
+      {
+        path: 'instituicoes',
+        component: InstituicoesPageComponent,
       },
     ],
   },
