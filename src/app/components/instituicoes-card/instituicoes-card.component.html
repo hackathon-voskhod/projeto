@@ -1,4 +1,6 @@
-<mat-card class="example-card">
-  <img mat-card-image [src]="instituicao?.imagem" [alt]="instituicao?.nome">
-  <mat-card-title>{{instituicao?.nome}}</mat-card-title>
-</mat-card>
+<a [routerLink]="['/instituicoes', instituicao?.id]">
+  <mat-card class="example-card">
+    <img [src]="instituicao?.imagem" [alt]="instituicao?.nome">
+    <mat-card-title>{{instituicao?.nome}}</mat-card-title>
+  </mat-card>
+</a>
