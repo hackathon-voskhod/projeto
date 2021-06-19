@@ -1,0 +1,9 @@
+.wrapper {
+  display: flex;
+}
+.wrapper h1 {
+  font-size: 30px;
+}
+.wrapper p {
+  font-size: 50px;
+}
