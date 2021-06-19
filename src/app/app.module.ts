@@ -24,6 +24,8 @@ import { InstituicaoPageComponent } from './components/instituicao-page/institui
 import { ContatosCardComponent } from './components/contatos-card/contatos-card.component';
 import { ContatosPageComponent } from './components/contatos-page/contatos-page.component';
 import { OferecerAjudaPageComponent } from './components/oferecer-ajuda-page/oferecer-ajuda-page.component';
+import { BuscoAjudaCardComponent } from './components/busco-ajuda-card/busco-ajuda-card.component';
+import { BuscoAjudaPageComponent } from './components/busco-ajuda-page/busco-ajuda-page.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +42,8 @@ import { OferecerAjudaPageComponent } from './components/oferecer-ajuda-page/ofe
     ContatosPageComponent,
     OferecerAjudaPageComponent,
     ContatosPageComponent,
+    BuscoAjudaCardComponent,
+    BuscoAjudaPageComponent,
   ],
   imports: [
     BrowserModule,
