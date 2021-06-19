@@ -1,1 +1,7 @@
-<p>busco-ajuda-page works!</p>
+<app-header titulo="Instituições"> </app-header>
+<section class="margin-wrapper">
+  <app-busco-ajuda-card *ngFor="let item of listaDeAjuda" [ajuda]="item"></app-busco-ajuda-card>
+</section>
+
+
+
