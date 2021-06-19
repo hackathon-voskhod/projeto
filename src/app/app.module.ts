@@ -25,6 +25,8 @@ import { ContatosCardComponent } from './components/contatos-card/contatos-card.
 import { ContatosPageComponent } from './components/contatos-page/contatos-page.component';
 import { OferecerAjudaPageComponent } from './components/oferecer-ajuda-page/oferecer-ajuda-page.component';
 import { FormsModule } from '@angular/forms';
+import { BuscoAjudaCardComponent } from './components/busco-ajuda-card/busco-ajuda-card.component';
+import { BuscoAjudaPageComponent } from './components/busco-ajuda-page/busco-ajuda-page.component';
 
 @NgModule({
   declarations: [
@@ -40,8 +42,9 @@ import { FormsModule } from '@angular/forms';
     ContatosCardComponent,
     ContatosPageComponent,
     OferecerAjudaPageComponent,
-    ContatosCardComponent,
     ContatosPageComponent,
+    BuscoAjudaCardComponent,
+    BuscoAjudaPageComponent,
   ],
   imports: [
     BrowserModule,

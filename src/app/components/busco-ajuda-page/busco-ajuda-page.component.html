@@ -1,1 +1,11 @@
-<p>busco-ajuda-page works!</p>
+<app-header
+  titulo="Busco Ajuda"
+  descricao="Você não está só! Aqui temos um time de apoiadores para auxiliar com diversas áreas."
+>
+</app-header>
+<section class="margin-wrapper">
+  <app-busco-ajuda-card
+    *ngFor="let item of listaDeAjuda"
+    [ajuda]="item"
+  ></app-busco-ajuda-card>
+</section>
