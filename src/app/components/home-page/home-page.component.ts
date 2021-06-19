@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePageComponent implements OnInit {
   public logoUrl =
-    'https://br.freepik.com/vetores-gratis/ilustracao-do-conceito-de-vida-na-arvore_13960162.htm#page=1&position=33#&position=33';
+    'https://image.freepik.com/vetores-gratis/ilustracao-do-conceito-de-vida-na-arvore_114360-6058.jpg';
   public titulo = 'Quem somos?';
   public descricao =
-    'O Projeto Por Elas foi idealizado diante da preocupação com o aumento dos casos de violência doméstica. Esta é uma rede que visa informar, apoiar, fortalecer e encorajar as meninas e mulheres que estão em situação de violência doméstica. Juntas somos mais fortes!';
+    'O Projeto Por Elas foi idealizado diante da preocupação com o aumento dos casos de violência. Esta é uma rede que visa informar, apoiar, fortalecer e encorajar as meninas e mulheres que estão em situação de violência doméstica. Juntas somos mais fortes!';
 
   public titulo2 = 'Informações Estatísticas';
   public descricao2 =
@@ -18,7 +18,7 @@ export class HomePageComponent implements OnInit {
 
   public titulo3 = 'Como podemos ajudar?';
   public descricao3 =
-    'Aqui você encontra uma lista de instituições que buscam atender meninas e mulheres vítimas de violência doméstica, reunindo o maior número possível de voluntários nas áreas da Assistência Social, Direito e Psicologia, que visam acolher, apoiar e prestar orientação técnica a quem as busca. Além disto, temos um compilado de leis fundamentais que asseguram seus direitos.';
+    'Aqui você encontra uma lista de instituições que buscam atender meninas e mulheres vítimas de violência, reunindo o maior número possível de voluntários nas áreas da Assistência Social, Direito e Psicologia, que visam acolher, apoiar e prestar orientação técnica a quem as busca. Além disto, temos um compilado de leis fundamentais que asseguram seus direitos.';
 
   constructor() {}
 
