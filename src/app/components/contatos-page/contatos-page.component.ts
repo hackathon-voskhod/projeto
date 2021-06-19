@@ -15,24 +15,31 @@ export class ContatosPageComponent implements OnInit {
 
     const contato = new ContatosAjudaModel();
 
-    contato.nome = "Policia";
-    contato.contato = "180";
+    contato.nome = "Polícia Militar";
+    contato.contato = "190";
 
     this.contatosAjuda.push(contato);
 
     const contato2 = new ContatosAjudaModel();
 
-    contato2.nome = "Policia";
+    contato2.nome = "Central de Atendimento à Mulher";
     contato2.contato = "180";
 
     this.contatosAjuda.push(contato2);
 
     const contato3 = new ContatosAjudaModel();
 
-    contato3.nome = "Policia";
-    contato3.contato = "180";
+    contato3.nome = "Disque Denúncia";
+    contato3.contato = "197";
 
     this.contatosAjuda.push(contato3);
+
+    const contato4 = new ContatosAjudaModel();
+
+    contato4.nome = "Disque Direitos Humanos";
+    contato4.contato = "100";
+
+    this.contatosAjuda.push(contato4);
   }
 
   ngOnInit(): void {
